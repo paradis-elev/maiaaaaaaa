@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golden Rose Jewellery Store</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6f2; /* light pink */
+            color: #6a0032;
+        }
+
+        header {
+            background-color: #ff99c8;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px;
+        }
+
+        .product-card {
+            background-color: white;
+            border: 2px solid #ffb3d9;
+            border-radius: 10px;
+            width: 250px;
+            margin: 20px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .price {
+            color: #c68e17; /* gold color */
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #ff66a3;
+            border: none;
+            padding: 12px 20px;
+            color: white;
+            font-size: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background-color: #ff3385;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff99c8;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Golden Rose Jewellery
+    </header>
+
+    <div class="container">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200?text=Gold+Necklace" alt="Gold Necklace">
+            <h3>Gold Heart Necklace</h3>
+            <p class="price">$120</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200?text=Gold+Bracelet" alt="Gold Bracelet">
+            <h3>Rose Gold Bracelet</h3>
+            <p class="price">$80</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200?text=Gold+Ring" alt="Gold Ring">
+            <h3>Elegant Gold Ring</h3>
+            <p class="price">$95</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200?text=Gold+Earrings" alt="Gold Earrings">
+            <h3>Golden Flower Earrings</h3>
+            <p class="price">$110</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Golden Rose Jewellery — All Rights Reserved
+    </footer>
+</body>
+</html>
